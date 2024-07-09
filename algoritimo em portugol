@@ -1,0 +1,39 @@
+algoritmo "Rotina Matinal"
+var
+    alarmeTocando : logico
+    levantado : logico
+    escovouDentes : logico
+    tomouCafe : logico
+    preparadoParaSair : logico
+
+inicio
+    // Início da rotina matinal
+    alarmeTocando := verdadeiro
+    levantado := falso
+    escovouDentes := falso
+    tomouCafe := falso
+    preparadoParaSair := falso
+
+    // Tocar o alarme
+    escreva("Alarme tocando... Hora de acordar!")
+    alarmeTocando := falso
+
+    // Levantar da cama
+    escreva("Levantou da cama.")
+    levantado := verdadeiro
+
+    // Escovar os dentes
+    escreva("Escovando os dentes...")
+    escovouDentes := verdadeiro
+
+    // Tomar café da manhã
+    escreva("Tomando café da manhã...")
+    tomouCafe := verdadeiro
+
+    // Preparar para sair
+    escreva("Preparando para sair...")
+    preparadoParaSair := verdadeiro
+
+    // Final da rotina
+    escreva("Pronto para sair!")
+fimalgoritmo
